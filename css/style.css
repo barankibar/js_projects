@@ -4,6 +4,8 @@
     z-index: -1;
     font-family: 'Poppins', sans-serif;
 }
+
+/* First Section */
 .first{
     background: #a09999;
     background-size: cover;
@@ -16,14 +18,17 @@
     color: #fff;
     font-size: larger;
 }
+
+
+/* Hamburger Menu */
 #sideNav{
     width: 300px;
     height: 100vh;
     position: fixed;
     right: -300px;
     top: 0px;
-    background: #a09999;
-    transition: 0.5;
+    background: #505050;
+    transition: transform 0.5s ease-in-out;
     z-index: 1;
 }
 #sideNav ul li{
